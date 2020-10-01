@@ -1,0 +1,1 @@
+model <- lm(wt ~hp+mpg+disp, df)

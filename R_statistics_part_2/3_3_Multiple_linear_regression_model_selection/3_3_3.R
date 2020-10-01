@@ -1,0 +1,1 @@
+model <- lm(sr~(.)^2, data = LifeCycleSavings)
