@@ -1,0 +1,14 @@
+1.1 Общая информация о курсе
+	1.1.1. Анализ данных в R
+1.3 Работа с data frame
+	1.3.4. new_data <- subset(mtcars, cyl != 3 & qsec > mean(qsec))
+1.5 Описательные статистики
+	1.5.4. 0
+	1.5.5. Sepal.Length - 0.83; Sepal.Width - 0.44; Petal.Length - 1.77; Petal.Width - 0.76
+	1.5.6. Petal.Width; Sepal.Length; Sepal.Width; Petal.Length
+1.6 Описательные статистики. Графики
+	1.6.1. 4
+	1.6.3. ggplot(iris, aes(Sepal.Length)) + geom_histogram(aes(fill = Species)); ggplot(iris, aes(Sepal.Length, fill = Species)) + geom_histogram()
+	1.6.4. Переменная, отвечающая за размер точек должна быть указана внутри функции aes(); Первым аргументом функции ggplot() должны быть данные iris
+1.7 Сохранение результатов
+	1.7.1. save(my_sd, file = "my_sd.RData")  

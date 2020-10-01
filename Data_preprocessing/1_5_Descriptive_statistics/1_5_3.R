@@ -1,0 +1,1 @@
+result <- aggregate(Ozone~Month,subset(airquality, Month %in% c(7,8,9)),length)

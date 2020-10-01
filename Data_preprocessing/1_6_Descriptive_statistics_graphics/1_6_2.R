@@ -1,0 +1,1 @@
+plot1 <- ggplot(data, aes(x=mpg, y=disp, colour=hp)) + geom_point()

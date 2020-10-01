@@ -1,0 +1,1 @@
+result <- mean(mtcars$qsec[(mtcars$cyl != 30)&(mtcars$mpg>20)])
